@@ -1,0 +1,125 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color:#fafafa;
+} 
+
+.tamLogo {
+    width: 150px;
+}
+.encabezado {
+    border-top: 20px solid white;
+    background-color:#C0CADA ;
+
+}
+
+.fuentesNav {
+
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.fuentesNav a:hover {
+background-color: #0A67EC;
+color: #fafafa;
+cursor: pointer;
+
+html {
+    font-size: 16px;
+
+    @media screen and (max-width:540){
+        font-size: 12px;
+    }
+}
+
+}
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase
+}
+
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase
+
+
+}
+h5 {
+    font-size: 1rem;
+    text-transform: uppercase
+}
+
+.parrafo {
+    font-size: 1rem;
+    width: 100%;
+    padding: 20px 20px;
+    text-align: justify;
+
+}
+
+.contenedorServicios {
+
+    max-width: 700px;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+.card-text {
+    font-size: 1rem;
+    text-align: justify;
+
+
+}
+
+.parrafoServicioMascotas {
+
+    font-size:1rem;
+    text-align: justify;
+}
+/*Banner Destinos Sugeridos*/
+.tituloDestinosSugeridos {
+
+    background-color: #C0CADA;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+
+.footer {
+    background-color:black;
+
+}
+
+/*Boton-Whatsapp responsive*/
+
+.boton-whatsapp {
+    position: fixed;
+     right: 62px;
+     bottom: 80px;
+     width: 70px;
+     height: 70px;
+     z-index: 100;
+  }
+
+  @media screen and (max-width: 600px) {
+    .boton-whatsapp {
+    display:none;
+    }
+}
+    
