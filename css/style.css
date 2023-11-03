@@ -77,6 +77,8 @@ padding: 20px;
 
 .miembrosDelEquipo img {
 border-radius: 10px;
+max-width: 100%;
+height: auto;
 
 }
 
@@ -131,9 +133,22 @@ border-radius: 10px;
      z-index: 100;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .boton-whatsapp {
     display:none;
     }
+
+    .miembrosDelEquipo {
+        grid-template-columns: 1fr 1fr;
+
+
+    }
 }
     
+@media (max-width: 500px) {
+    .miembrosDelEquipo {
+        grid-template-columns: 1fr;
+    }
+}
+    
+}
