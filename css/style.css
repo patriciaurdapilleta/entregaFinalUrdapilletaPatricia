@@ -67,6 +67,8 @@ h5 {
 
 }
 
+
+
 .miembrosDelEquipo {
 display:grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -77,6 +79,26 @@ border-top: 1px;
 
 }
 
+img {
+    border-radius: 10px;
+    border-top: 2px;
+}
+.form-group {
+    filter: grayscale(80%);
+    transition: all 0.10s;
+}
+.form-group:hover {
+    filter:grayscale( 10%)
+}
+
+.textarea {
+    background-color: #6E7FF3;
+    border: black solid;
+}
+.input {
+    background-color: #6E7FF3;
+    border: black solid;
+}
 .miembrosDelEquipo img {
 border-radius: 10px;
 max-width: 100%;
@@ -96,21 +118,40 @@ height: auto;
 
 
 .contenedorServicios {
-
+    
     max-width: 700px;
     width: 100%;
     padding: 10px 20px;
     text-align: justify;
     margin-top: 10px;
+  
 
 }
+/*  
+    
+    display: grid;
+    place-items: center;
+    margin:auto*/
 
+
+    .mapa {
+        text-align: left;
+    }
 
 .card-text {
     font-size: 1rem;
     text-align: justify;
 
 
+}
+
+.tituloNuevosServicios {
+    background: linear-gradient(#b7cee6,#c0b5da,#beb5db,#d5b1d3 );
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
 }
 
 .parrafoServicioMascotas {
@@ -121,13 +162,23 @@ height: auto;
 /*Banner Destinos Sugeridos*/
 .tituloDestinosSugeridos {
 
-    background-color: #C0CADA;
+    background: linear-gradient(#b7cee6,#c0b5da,#beb5db,#d5b1d3);
     color: black;
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     padding: 10px;
     
+}
+
+button {
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    padding: 10px;
+    border-radius: 6px;
+    color:#fafafa;
+    cursor:pointer;
+    border:none
+
 }
 
 

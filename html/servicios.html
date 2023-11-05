@@ -47,7 +47,7 @@
   </header>
   <h1 class="text-center">Servicios</h1>
   <br>
-  <h2> Con la eficiencia que nos caracteriza usted podrá encontrar en la siguiente lista los principales servicios que
+  <h2 class="text-center"> En la siguiente lista encontrara los principales servicios que
     brindamos.</h2>
   <div class="contenedorServicios">
     <ul>
@@ -56,7 +56,7 @@
       <li>Transfer (del aeropuerto al hotel a la llegada y del hotel al aeropuerto antes de la salida)</li>
       <li>Seguro Medico</li>
       <li>Servicio de trámite de visa (si se requiere para ingresar al país)</li>
-      <li>Asesoramiento en el traslado de mascotas en caso de requerirlo</li>
+      <li>Asesoramiento y/o traslado de mascotas en caso de requerirlo.</li>
       <li>Asesoramiento con el presupuesto para su viaje</li>
       <li>Contratacion de excursiones a pedido de los viajeros</li>
       <li>Contacto las 24 hs del dia durante su viaje, respondiendo dudas y consultas</li>
@@ -66,28 +66,147 @@
       <li>Alquiler de automombiles. </li>
     </ul>
   </div>
-  <h2 class="text-start"> Nuevo Servicio </h2>
-  <h3 class="text-start">Asesoramiento y traslado de Mascotas</h3>
-  <div class="nuevoServicio py-4 ">
+
+  <!-- Banner nuevos servicios -->
+  <div class="tituloNuevosServicios mt-3">
+    <h3>Nuevo Servicio de Asesoramiento y/o traslado de Mascotas</h3>
+    <br>
+  </div>
+  <p class="parrafo">Ya podes incluir a tu mascota en tus planes de vacaciones. Nos ocupamos del asesoramiento en
+    el traslado de tu mascota asi como tambien de su traslado en caso de requerirlo. Nos aseguramos de darte el mejor
+    servicio con todos los tramites vinculados al traslado de tu mascota asi como tambien de aconsejarte que
+    transportin se debe utilizar. Ya no hay excusas para que tu compañero de todos los
+    dias se quede en casa.
+  </p>
+  <!-- Cards -->
+  <!-- Cards con Nuevos Servicios -->
+  <div class="row mt-3">
+    <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+      <img src="../img/perro viajero2.jpg" class="card-img-top " alt="Perro con sombrero y anteojos sentado sobre una valija">
+      <div class="card-body">
+        <h3 class="card-title text-center">Traslado de Mascotas</h3>
+        <p class="card-text"> El servicio incluye el traslado de mascotas dentro del territorio Argentino por via
+          terrestre y aerea en caso de ser necesario. El servicio es de puerta a puerta. Nos necaragamos de que tu
+          mascota viaje comoda y segura. Precio USD 1000</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+    <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+      <img src="../img/viajar-nuevo-concepto-arreglo-estilo.jpg" class="card-img-top" alt="Imagen de aviones pasaporte y ticket de avion">
+      <div class="card-body">
+        <h3 class="card-title text-center">Obtencion de Permiso de viaje o Pasaporte</h3>
+        <p class="card-text"> El servicio incluye la realizacion de todos los tramites administrativos ante
+          Senasa necesarios para obtener el permiso de viaje del animal o su pasaporte asi como tambien el abono de
+          tasas para los mismos. Precio USD 400</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+      <img src="../img/veterinario-cuidando-mascota.jpg" class="card-img-top" alt="Mujer veterinaria cuidando un gato">
+      <div class="card-body">
+        <h3 class="card-title text-center">Control Veterinario</h3>
+        <p class="card-text"> El control veterinario se realiza antes de viajar y se basa en hacer la lectura del
+          microchip al animal, verificar que posea todas las
+          vacunas requeridas en destino para poder ingresar asi como tambien verificar que el animal goza de
+          buena salud para viajar. Precio 200</p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+
+    <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+      <img src="../img/perro sobre skate en valija.jpg" class="card-img-top" alt=". Un Perro sobre skate y un niño sobre un skate">
+      <div class="card-body">
+        <h3 class="card-title text-center">Traslados al extranjero</h3>
+        <p class="card-text">. Nos encargargamos de todos los tramites y de llevar a tu mascotas hasta donde estes.
+          Para poder concretar el servicio es necesario hacer una videollamada, ver los antecedentes del caso y luego remitir un presupuesto valido por 5 dias. Precio de la video llamada US D100.
+        </p>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Añadir al Carrito
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <!-- Button trigger modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Comprar Ahora
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+  <!-- <div class="row mt-3">
+    <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+      <img src="../img/perro viajero2.jpg" class="card-img-top "
+        alt="Perro con anteojos sentado sobre la maleta antes de viajar">
+      <div class="card-body">
+        <h3 class="card-title text-center">Tralado de Mascotas</h3>
+        <p class="card-text">Nuestro servicio incluye el traslado de mascotas dentro del territorio Argentino como a
+          distintos paises del extranjero. De acuerdo al presupuesto y la necedidad del cleinte puede combinarse
+          traslado aereo con traslado terrestre. En caso de solicitarlo el servicio es de puerta a puerta o bien a
+          combinar en algun aeropuerto internacional. En cada caso se realiza un presupuesto con una validez de 7 dias
+          habiles</p>
+      </div>
+      <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+        <img src="../img/veterinario-cuidando-mascota.jpg" class="card-img-top "
+          alt="Veterianario haciendo control a un gato antes de viajar">
+        <div class="card-body">
+          <h3 class="card-title text-center">Control Veterinario de Mascotas</h3>
+          <p class="card-text">Dentro de los servicios que ofrecemos se incluye el control veterinario a las mascotas
+            antes de viajar. El control se basa en revisar al animal y verificar que posea todas las vacunas requeridas
+            en destino para poder ingresar al pais asi como tambien verificar que el animal goza de buena salud para
+            viajar.</p>
+        </div>
+        <div class="card card border-secondary mb-3 col-xl-3 col-md-6 col-sm-12">
+          <img src="../img/pet passport.jpg" class="card-img-top " alt=" Foto de Passport Pets">
+          <div class="card-body">
+            <h3 class="card-title text-center">Obtencion del Pasaporte o permiso de viaje del animal</h3>
+            <p class="card-text">Nuestro servicio incluye la realizacion de todos los tramites administrativos ante
+              Senasa necesarios
+              para obtener el permiso de viaje del animal o su pasaporte asi como tambien el abono de tasas para los
+              mismos.</p>
+          </div> -->
+  <!-- <div class="nuevoServicio py-4 ">
     <div class="vw-100 mx-auto">
       <img class="img-fluid " src="../img/perro viajero2.jpg"
         alt="Foto de un perro con una valija, anteojos  y un sombrero.">
-      <p class="parrafo">Ya podes incluir a tu mascota en tus planes de vacaciones. Nos ocupamos del asesoramiento en
-        el traslado de tu mascota asi como tambien de su traslado en caso de requerirlo. <br>
-        Nos aseguramos de darte el mejor servicio con todos los tramites vinculados al traslado de tu mascota asi como
-        tambien de aconsejarte que transportin se debe utilizar. Ya no hay excusas para que tu compañero de todos los
-        dias se quede en casa.
 
-      </p>
     </div>
-  </div>
+    <div class="vw-100 mx-auto">
+      <img class="img-fluid " src="../img/veterinario-cuidando-mascota antes de viajar.jpg"
+        alt="Foto de un gato en un control veterinario antes de viajar.">
+
+    </div> -->
+
+
   <!-- Footer Responsive con BS -->
   <footer>
     <div class="container-fluid">
       <div class="row p-5  bg-secondary pb-2 text-black">
         <div class="col-sm-12 col-md-6 col-xl-3">
           <p class="h3">Good Travel</p>
-          <p class="text-black">Montevideo 661.CABA. <br>
+          <p class="text-black"> Direccion: Montevideo 661.CABA. <br>
             Argentina
           </p>
         </div>
