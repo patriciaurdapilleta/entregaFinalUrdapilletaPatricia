@@ -28,6 +28,7 @@
 background-color: #0A67EC;
 color: #fafafa;
 cursor: pointer;
+}
 
 html {
     font-size: 16px;
@@ -37,27 +38,31 @@ html {
     }
 }
 
-}
-h1 {
-    font-size: 2rem;
+
+
+
+.text-center {
+
+    font-size: 1rem ;
     text-transform: uppercase;
 }
+.tituloh1 {
+    font-size: 2rem;
+    text-transform: uppercase;
 
-h2 {
-    font-size: 1rem;
+}
+.tituloh2 {  
+    font-size: 1,5rem;
     text-transform: uppercase
+
 }
 
-h3 {
+.tituloh3 {
     font-size: 1rem;
-    text-transform: uppercase,
-
+    text-transform: uppercase;
 
 }
-h5 {
-    font-size: 1rem;
-    text-transform: uppercase
-}
+
 
 .parrafo {
     font-size: 1rem;
@@ -78,10 +83,24 @@ margin:5vh;
 border-top: 1px;
 
 }
-
-img {
+/*img {
     border-radius: 10px;
     border-top: 2px;
+}*/
+
+
+.miembrosDelEquipo img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-top: 2px;
+}
+
+
+.mapa{
+margin-bottom: 2px;
+padding: 1px;
+
 }
 .form-group {
     filter: grayscale(80%);
@@ -99,15 +118,11 @@ img {
     background-color: #6E7FF3;
     border: black solid;
 }
-.miembrosDelEquipo img {
-border-radius: 10px;
-max-width: 100%;
-height: auto;
 
-}
 .tarjetaTitulo {
     text-align: center;
     font-size:bold;
+    text-transform: uppercase;
 }
 .tarjetaDescripcion {
     font-size: 1rem;
@@ -118,32 +133,60 @@ height: auto;
 
 
 .contenedorServicios {
-    
+    background: #b7cee6;
     max-width: 700px;
     width: 100%;
     padding: 10px 20px;
     text-align: justify;
     margin-top: 10px;
-  
+    display: grid;
+    place-items: center;
+    margin:auto
+     
 
 }
+
+/* .contenedorServicios {
+
+    background: #b7cee6;
+    display: table;
+    height: 220px;
+    margin: 2rem auto;
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;
+
+}*/
+
+
 /*  
     
     display: grid;
     place-items: center;
-    margin:auto*/
-
-
+    margin:auto
+    
     .mapa {
         text-align: left;
-    }
+        border: black solid 2px;
+    }*/
 
+
+    
+.card-title {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #b7cee6;
+    box-shadow: 4px 2px;
+
+}
 .card-text {
     font-size: 1rem;
     text-align: justify;
 
-
 }
+
+/* Banner Nuevos Servicios */
 
 .tituloNuevosServicios {
     background: linear-gradient(#b7cee6,#c0b5da,#beb5db,#d5b1d3 );
@@ -216,4 +259,3 @@ button {
     }
 }
     
-}
