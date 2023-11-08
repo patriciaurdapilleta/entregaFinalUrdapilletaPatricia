@@ -1,0 +1,14 @@
+.form-group {
+    filter: grayscale(80%);
+    transition: all 0.10s;
+
+    &:hover {
+        filter: grayscale(10%);
+    }
+}
+
+.textarea,
+.input {
+    background-color: #6E7FF3;
+    border: black solid;
+}
