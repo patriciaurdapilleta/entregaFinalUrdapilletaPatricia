@@ -1,19 +1,17 @@
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 .body {
     font-family: 'Roboto', sans-serif;
-    background-color:#fafafa;
-} 
+    background-color: #fafafa;
+}
 
 .tamLogo {
     width: 150px;
 }
+
 .encabezado {
     border-top: 20px solid white;
-    background-color:#C0CADA ;
+    background-color: #C0CADA;
 
 }
 
@@ -25,36 +23,42 @@
 }
 
 .fuentesNav a:hover {
-background-color: #0A67EC;
-color: #fafafa;
-cursor: pointer;
+    background-color: #0A67EC;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 html {
     font-size: 16px;
 
-    @media screen and (max-width:540){
+    @media screen and (max-width:540) {
         font-size: 12px;
     }
 }
 
 
-
-
 .text-center {
 
-    font-size: 1rem ;
+    font-size: 1rem;
     text-transform: uppercase;
 }
+
 .tituloh1 {
     font-size: 2rem;
     text-transform: uppercase;
 
 }
-.tituloh2 {  
-    font-size: 1,5rem;
-    text-transform: uppercase
 
+.tituloh2 {
+    font-size: 1, 5rem;
+    text-transform: uppercase
 }
 
 .tituloh3 {
@@ -75,18 +79,14 @@ html {
 
 
 .miembrosDelEquipo {
-display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-gap: 50px;
-padding: 2px;
-margin:5vh;
-border-top: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 2px;
+    margin: 5vh;
+    border-top: 1px;
 
 }
-/*img {
-    border-radius: 10px;
-    border-top: 2px;
-}*/
 
 
 .miembrosDelEquipo img {
@@ -97,23 +97,26 @@ border-top: 1px;
 }
 
 
-.mapa{
-margin-bottom: 2px;
-padding: 1px;
+.mapa {
+    margin-bottom: 2px;
+    padding: 1px;
 
 }
+
 .form-group {
     filter: grayscale(80%);
     transition: all 0.10s;
 }
+
 .form-group:hover {
-    filter:grayscale( 10%)
+    filter: grayscale(10%)
 }
 
 .textarea {
     background-color: #6E7FF3;
     border: black solid;
 }
+
 .input {
     background-color: #6E7FF3;
     border: black solid;
@@ -121,14 +124,16 @@ padding: 1px;
 
 .tarjetaTitulo {
     text-align: center;
-    font-size:bold;
+    font-size: bold;
     text-transform: uppercase;
 }
+
 .tarjetaDescripcion {
     font-size: 1rem;
     text-align: center;
     padding: 2px;
     border-top: 1px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -141,37 +146,11 @@ padding: 1px;
     margin-top: 10px;
     display: grid;
     place-items: center;
-    margin:auto
-     
-
+    margin: auto
 }
 
-/* .contenedorServicios {
-
-    background: #b7cee6;
-    display: table;
-    height: 220px;
-    margin: 2rem auto;
-    text-align: center;
-    width: 300px;
-    vertical-align: middle;
-
-}*/
 
 
-/*  
-    
-    display: grid;
-    place-items: center;
-    margin:auto
-    
-    .mapa {
-        text-align: left;
-        border: black solid 2px;
-    }*/
-
-
-    
 .card-title {
     font-size: 1rem;
     text-align: center;
@@ -180,6 +159,7 @@ padding: 1px;
     box-shadow: 4px 2px;
 
 }
+
 .card-text {
     font-size: 1rem;
     text-align: justify;
@@ -189,8 +169,8 @@ padding: 1px;
 /* Banner Nuevos Servicios */
 
 .tituloNuevosServicios {
-    background: linear-gradient(#b7cee6,#c0b5da,#beb5db,#d5b1d3 );
-    color:black;
+    background: linear-gradient(#b7cee6, #c0b5da, #beb5db, #d5b1d3);
+    color: black;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -199,34 +179,35 @@ padding: 1px;
 
 .parrafoServicioMascotas {
 
-    font-size:1rem;
+    font-size: 1rem;
     text-align: justify;
+    font-weight: bolder;
 }
+
 /*Banner Destinos Sugeridos*/
 .tituloDestinosSugeridos {
 
-    background: linear-gradient(#b7cee6,#c0b5da,#beb5db,#d5b1d3);
+    background: linear-gradient(#b7cee6, #c0b5da, #beb5db, #d5b1d3);
     color: black;
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     padding: 10px;
-    
+
 }
 
 button {
     background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
     padding: 10px;
     border-radius: 6px;
-    color:#fafafa;
-    cursor:pointer;
-    border:none
-
+    color: #fafafa;
+    cursor: pointer;
+    border: none
 }
 
 
 .footer {
-    background-color:black;
+    background-color: black;
 
 }
 
@@ -234,16 +215,16 @@ button {
 
 .boton-whatsapp {
     position: fixed;
-     right: 62px;
-     bottom: 80px;
-     width: 70px;
-     height: 70px;
-     z-index: 100;
-  }
+    right: 62px;
+    bottom: 80px;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+}
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .boton-whatsapp {
-    display:none;
+        display: none;
     }
 
     .miembrosDelEquipo {
@@ -252,10 +233,9 @@ button {
 
     }
 }
-    
+
 @media (max-width: 600px) {
     .miembrosDelEquipo {
         grid-template-columns: 1fr;
     }
 }
-    
