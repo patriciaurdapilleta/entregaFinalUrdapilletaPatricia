@@ -1,17 +1,206 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "fuentes";
- *   |         ^^^^^^^^^
- *   '
- *   scss\style.scss 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"fuentes\";\d\a   \2502          ^^^^^^^^^\a   \2575 \a   scss\\style.scss 2:9  root stylesheet";
+/*Mixin*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.parrafoServicioMascotas {
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: bolder;
+  font-weight: bolder;
+  color: grey;
 }
+
+.parrafo {
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+.tamLogo {
+  width: 150px;
+}
+
+.encabezado {
+  border-top: 20px solid white;
+  background-color: #C0CADA;
+}
+
+.fuentesNav {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.fuentesNav a:hover {
+  background-color: #0A67EC;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
+}
+
+.tituloh1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.tituloh2 {
+  font-size: 1, 5rem;
+  text-transform: uppercase;
+}
+
+.tituloh3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.parrafo {
+  font-size: 1rem;
+  width: 100%;
+  padding: 20px 20px;
+  text-align: justify;
+}
+
+/* Banner Nuevos Servicios */
+.tituloNuevosServicios {
+  background: linear-gradient(#b7cee6, #c0b5da, #beb5db, #d5b1d3);
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+}
+
+/*Banner Destinos Sugeridos*/
+.tituloDestinosSugeridos {
+  background: linear-gradient(#b7cee6, #c0b5da, #beb5db, #d5b1d3);
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #b7cee6;
+  box-shadow: 4px 2px;
+}
+
+.card-text {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.mapa {
+  margin-bottom: 2px;
+  padding: 1px;
+}
+
+.form-group {
+  filter: grayscale(80%);
+  transition: all 0.1s;
+}
+.form-group:hover {
+  filter: grayscale(10%);
+}
+
+.textarea,
+.input {
+  background-color: #6E7FF3;
+  border: black solid;
+}
+
+.footer {
+  background-color: black;
+}
+
+/*Boton-Whatsapp responsive*/
+.boton-whatsapp {
+  position: fixed;
+  right: 62px;
+  bottom: 80px;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+}
+
+.miembrosDelEquipo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 2px;
+  margin: 5vh;
+  border-top: 1px;
+}
+.miembrosDelEquipo img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  border-top: 2px;
+}
+
+.tarjetaTitulo {
+  text-align: center;
+  font-size: bold;
+  text-transform: uppercase;
+}
+
+.tarjetaDescripcion {
+  font-size: 1rem;
+  text-align: center;
+  padding: 2px;
+  border-top: 1px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.contenedorServicios {
+  background: #b7cee6;
+  max-width: 700px;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: justify;
+  margin-top: 10px;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.parrafoServicioMascotas {
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: bolder;
+}
+
+button {
+  background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+  padding: 10px;
+  border-radius: 6px;
+  color: #fafafa;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .boton-whatsapp {
+    display: none;
+  }
+  .miembrosDelEquipo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .miembrosDelEquipo {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

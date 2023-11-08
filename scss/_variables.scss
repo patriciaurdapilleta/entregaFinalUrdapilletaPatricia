@@ -1,0 +1,21 @@
+
+/*Mixin*/
+@mixin parrafoConEstilo {
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: bolder
+}
+
+.parrafoServicioMascotas {
+
+    @include parrafoConEstilo;
+    font-weight: bolder;
+    color: grey
+}
+
+.parrafo {
+    @include parrafoConEstilo;
+
+}
+$blanco: #fafafa;
+$celeste: #b7cee6;

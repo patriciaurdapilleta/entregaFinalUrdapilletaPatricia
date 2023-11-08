@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 768px) {
+    .boton-whatsapp {
+        display: none;
+    }
+
+    .miembrosDelEquipo {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .miembrosDelEquipo {
+        grid-template-columns: 1fr;
+    }
+}
